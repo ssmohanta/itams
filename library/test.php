@@ -1,0 +1,13 @@
+<?php
+$thisFile = str_replace('\\', '/', __FILE__);
+$docRoot = $_SERVER['DOCUMENT_ROOT'];
+
+$webRoot  = str_replace(array($docRoot, 'library/config.php'), '', $thisFile);
+$srvRoot  = str_replace('library/config.php', '', $thisFile);
+
+echo $_FILE_
+echo $thisFile . '<br/>'
+echo $docRoot . '<br/>'
+echo $webRoot . '<br/>' 
+echo $srvRoot . '<br/>' 
+?>
